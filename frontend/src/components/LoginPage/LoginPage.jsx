@@ -13,12 +13,8 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { loginStyles } from "../../assets/dummyStyles";
 
-// API base (points to /api/auth) - use HTTP for local backend
-const API_BASE = "http://localhost:5000/api/auth";
-
-// Admin frontend base URL. Use Vite env `VITE_ADMIN_BASE` in development
-// or fallback to the local admin dev server (common default: 5174).
-const ADMIN_BASE = import.meta.env.VITE_ADMIN_BASE || "http://localhost:5174";
+// API base (points to /api/auth)
+const API_BASE =  "https://novacinema-backend.vercel.app/api/auth";
 
 const LoginPage = () => {
   const [formData, setFormData] = useState({
@@ -84,9 +80,7 @@ const LoginPage = () => {
         // REDIRECT BASED ON ROLE
         setTimeout(() => {
           if (isAdmin) {
-            // Redirect to admin frontend. Use local dev URL by default
-            // or `VITE_ADMIN_BASE` when provided (e.g. deployed URL).
-            window.location.href = ADMIN_BASE;
+            window.location.href = "https://novacinema-admin.vercel.app/";
           } else {
             window.location.href = "/";
           }

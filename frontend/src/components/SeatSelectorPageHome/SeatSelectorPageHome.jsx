@@ -13,7 +13,7 @@ import {
 import { toast } from "react-toastify";
 import { seatSelectorHStyles } from "../../assets/dummyStyles";
 
-const API_BASE = import.meta?.env?.VITE_API_BASE_URL || "http://localhost:5000"; // adjust if your backend is hosted elsewhere
+const API_BASE = "https://novacinema-backend.vercel.app/"; // adjust if your backend is hosted elsewhere
 
 /* layout */
 const ROWS = [

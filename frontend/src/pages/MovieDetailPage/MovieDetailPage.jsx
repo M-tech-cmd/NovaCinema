@@ -21,18 +21,16 @@ import { toast } from "react-toastify";
 
 import { movieDetailHStyles } from "../../assets/dummyStyles";
 
-const API_BASE = import.meta?.env?.VITE_API_BASE_URL || "http://localhost:5000"; // adjust if your backend is hosted elsewhere
+const API_BASE =  "https://novacinema-backend.vercel.app/"; // adjust if your backend is hosted elsewhere
 
 const ROWS = [
-  { id: "A", type: "standard", count: 8 },
-
-  { id: "B", type: "standard", count: 8 },
-
-  { id: "C", type: "standard", count: 8 },
-
-  { id: "D", type: "recliner", count: 8 },
-
-  { id: "E", type: "recliner", count: 8 },
+  { id: "A", type: "vip",       count: 6 },
+  { id: "B", type: "premium",   count: 6 },
+  { id: "C", type: "recliner",  count: 8 },
+  { id: "D", type: "executive", count: 8 },
+  { id: "E", type: "standard",  count: 8 },
+  { id: "F", type: "economy",   count: 8 },
+  { id: "G", type: "balcony",   count: 8 },
 ];
 
 const TOTAL_SEATS = ROWS.reduce((s, r) => s + r.count, 0);

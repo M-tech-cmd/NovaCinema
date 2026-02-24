@@ -19,7 +19,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { signUpStyles, signUpCSS } from "../../assets/dummyStyles";
 
 // Set API base to environment variable or fallback to localhost
-const API_BASE = "http://localhost:5000/api/auth";
+const API_BASE =  "https://novacinema-backend.vercel.app/api/auth";
 
 const SignUpPage = () => {
   const [formData, setFormData] = useState({

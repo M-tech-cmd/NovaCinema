@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { bookingsPageStyles, formatTime, formatDuration } from "../../assets/dummyStyles";
 
 // API base
-const API_BASE = import.meta?.env?.VITE_API_BASE_URL || "http://localhost:5000"; // adjust if your backend is hosted elsewhere
+const API_BASE = "https://novacinema-backend.vercel.app/"; // adjust if your backend is hosted elsewhere
 
 function getStoredToken() {
   return (

@@ -4,7 +4,7 @@ import { Tickets } from "lucide-react";
 import { Link } from "react-router-dom";
 import { moviesStyles } from "../../assets/dummyStyles";
 
-const API_BASE = import.meta?.env?.VITE_API_BASE_URL || "http://localhost:5000"; // adjust if your backend is hosted elsewhere
+const API_BASE = "https://novacinema-backend.vercel.app/"; // adjust if your backend is hosted elsewhere
 const PLACEHOLDER = "https://placehold.co/400x600?text=No+Poster";
 
 const getUploadUrl = (maybe) => {

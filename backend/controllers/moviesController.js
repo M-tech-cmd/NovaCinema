@@ -5,7 +5,7 @@ import path from "path";
 import fs from "fs";
 import { v2 as cloudinary } from "cloudinary";
 
-const API_BASE =  "http://localhost:5000"; // adjust if your backend is hosted elsewhere
+const API_BASE =  "https://novacinema-backend.vercel.app/"; // adjust if your backend is hosted elsewhere
 
 /* ---------- Cloudinary config ---------- */
 cloudinary.config({
