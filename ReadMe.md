@@ -6,7 +6,7 @@ NovaCinema is a production-ready Movie Ticket Booking Web Application built usin
 
 ## 🔥 Live Preview
 
-(Add your deployed frontend link here)
+novacinema-booking.vercel.app
 
 ---
 
@@ -166,17 +166,7 @@ novacinema/
 
 ---
 
-## 🎓 Ideal For
-
-* Major / Minor College Projects
-* Internship Portfolio Projects
-* Full-Stack Developer Portfolios
-* Students preparing for placements
-* Developers learning MERN architecture
-
----
-
-## 💡 What You’ll Learn
+## 💡quick review
 
 * Full MERN stack workflow
 * Authentication & authorization systems
@@ -209,15 +199,17 @@ MIT License
 Full Stack Developer • MERN Stack Engineer • Backend Enthusiast
 
 
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview1.png)
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview2.png)
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview3.png)
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview4.png)
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview5.png)
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview6.png)
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview6.png)
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview8.png)
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview9.png)
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview10.png)
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview11.png)
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview12.png)
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview13.png)
+![image alt](https://github.com/M-tech-cmd/NovaCinema/blob/49d9e39aa5c0a407ea7768c5bb67a168f90f5d17/frontend/src/assets/img/preview14.png)
