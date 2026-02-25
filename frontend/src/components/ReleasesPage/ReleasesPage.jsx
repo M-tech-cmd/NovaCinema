@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { releasesStyles } from "../../assets/dummyStyles";
 
-const API_BASE = "https://novacinema-backend.vercel.app/"; // adjust if your backend is hosted elsewhere
+const API_BASE = "https://novacinema-backend.vercel.app"; // adjust if your backend is hosted elsewhere
 const PLACEHOLDER_IMG = "https://via.placeholder.com/400x600?text=No+Image";
 
 const getUploadUrl = (maybeFilenameOrUrl) => {

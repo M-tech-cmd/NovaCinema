@@ -13,7 +13,7 @@ const fmtKES = (num) =>
     : "KSh0";
 
 // API base — change with Vite env var if needed
-const API_BASE = "https://novacinema-backend.vercel.app/";
+const API_BASE = import.meta?.env?.VITE_API_BASE_URL || "https://novacinema-backend.vercel.app";
 
 export default function DashboardPage() {
   // fetched data

@@ -17,7 +17,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { addMoviePageStyles, addMoviePageCustomStyles } from "../../assets/dummyStyles";
 
-const API_HOST = "https://novacinema-backend.vercel.app/"; // adjust if your backend is hosted elsewhere
+const API_HOST = "https://novacinema-backend.vercel.app"; // adjust if your backend is hosted elsewhere
 
 export default function AddMoviePage() {
   // form state

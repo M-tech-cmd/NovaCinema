@@ -80,7 +80,7 @@ const LoginPage = () => {
         // REDIRECT BASED ON ROLE
         setTimeout(() => {
           if (isAdmin) {
-            window.location.href = "https://novacinema-admin.vercel.app/";
+            window.location.href = "https://novacinema-admin.vercel.app";
           } else {
             window.location.href = "/";
           }

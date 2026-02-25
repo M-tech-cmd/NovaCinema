@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { styles5, customStyles } from "../../assets/dummyStyles";
 
-const API_BASE =  "https://novacinema-backend.vercel.app/"; // adjust if your backend is hosted elsewhere
+const API_BASE =  "https://novacinema-backend.vercel.app"; // adjust if your backend is hosted elsewhere
 
 // format KES
 const fmtKES = (n) =>
